@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nitin_doctor">
+
+    <ImageView
+        android:id="@+id/dilip"
+        android:layout_width="267dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/nitin"></ImageView>
+
+    <TextView
+        android:id="@+id/dilip1"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:text="Dr.Nitin Kumar"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/dilip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip1"
+        android:layout_marginTop="20dp"
+        android:text="Experience: 10 years"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/dilip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip2"
+        android:layout_marginTop="10dp"
+        android:text="Qualification: MBBS , BDS"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip3"
+        android:layout_marginTop="10dp"
+        android:text="Specialist: Dental Problem "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/dilip4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dilip5"
+        android:text="E-mail: nitin123@gmail.com"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dilip6"
+        android:layout_below="@+id/dilip5"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Address: PANKI Bhauti Kanpur"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/dilip7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Mobile No:6387788015"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

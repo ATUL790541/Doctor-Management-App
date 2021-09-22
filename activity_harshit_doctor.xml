@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".harshit_doctor">
+
+    <ImageView
+        android:id="@+id/dilip"
+        android:layout_width="267dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/harshit"></ImageView>
+
+    <TextView
+        android:id="@+id/dilip1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dr.Harshit Mishra"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/dilip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip1"
+        android:layout_marginTop="20dp"
+        android:text="Experience: 12 years"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/dilip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip2"
+        android:layout_marginTop="10dp"
+        android:text="Qualification: MD"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip3"
+        android:layout_marginTop="10dp"
+        android:text="Specialist:Medicine Doctor "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/dilip4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dilip5"
+        android:text="E-mail: harshit123@gmail.com"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dilip6"
+        android:layout_below="@+id/dilip5"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Address: Ramadevi Bhauti Kanpur"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/dilip7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dilip6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Mobile No:8840437485"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</LinearLayout>
